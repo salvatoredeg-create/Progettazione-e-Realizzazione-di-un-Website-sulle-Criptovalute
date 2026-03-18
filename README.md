@@ -1,4 +1,4 @@
-**[Visita il Sito Web Live qui](inserisci-il-tuo-link-github-pages-qui)** 📄 **[Leggi la Tesi Completa (PDF)](./inserisci-nome-file-tesi.pdf)**
+**[Visita il Sito Web Live qui](https://salvatoredeg-create.github.io/Progettazione-e-Realizzazione-di-un-Website-sulle-Criptovalute/)**
 
 ## Descrizione del Progetto
 Questo progetto di tesi consiste in un sito web educativo progettato per rendere accessibili a chiunque le dinamiche fondamentali delle criptovalute. Il portale esplora in modo approfondito la definizione, l'evoluzione storica, la tecnologia sottostante e l'impatto economico e sociale di questo settore.
