@@ -11,5 +11,7 @@ Il sito è stato sviluppato con un forte focus sull'Esperienza Utente e sull'acc
 * **Navigazione Fluida:** Implementazione di un menù di navigazione chiaro, frecce direzionali interattive e sottoparagrafi di approfondimento per non perdere mai il filo della lettura.
 * **Design ed Estetica:** Interfaccia pulita con font *Arial* e testo centrato per la massima leggibilità. Il layout è arricchito da un'immagine di background fissa a tema (con corretta attribuzione), che mantiene il sito elegante durante lo scorrimento.
 
+**[Leggi la Tesi Completa (PDF)](./tesi.pdf)**
+
 ## Autore
-* **[Salvatore De Gregorio]** - Progetto di Tesi
+**Salvatore De Gregorio** - Progetto di Tesi
