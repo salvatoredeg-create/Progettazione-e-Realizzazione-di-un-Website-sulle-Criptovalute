@@ -1,0 +1,166 @@
+body{
+    font-family: Arial;/*all interno ddella pagina modifica il font dei caratteri*/
+    text-align: center;/*allinea il testo al centro*/
+}
+.background {
+    background-image:url("immagini/Foto_Background.jpeg"); /* Inserisci il percorso della tua immagine, foto di Freepik */
+    background-size: cover; /* Copre tutta la pagina */
+    background-position: center; /* Centra l'immagine */
+    background-attachment: fixed; /* L'immagine resta fissa mentre scorri */
+}
+h1{
+    font-family: helvetica; /*modifica il font dei caratteri nel titolo*/
+    color: rgb(160, 0, 99); /*Colora il testo del titolo*/
+    background-color:#fcfcfe; /*aggiunge un background dietro al testo di colore bianco*/
+    padding: 10px; /*definisce lo spazio interno tra il contenuto di un elemento e il suo bordo*/
+    
+}
+.foto-iniziale{
+    display: flex;
+    justify-content: space-between; /*Distribuisce gli elementi figli lungo l'asse, mettendo spazio uguale Fra di loro. Il primo elemento si allinea all'estrema sinistra, l'ultimo all'estrema destra*/
+}
+header {
+    position: sticky;
+    top: 0;  /* Mantiene l'elemento attaccato al top */
+    background: white; /* Per evitare sovrapposizioni con altri elementi */
+    z-index: 1000;  /* Mantiene l'header sopra gli altri elementi */
+    padding: 10px;/* definire lo spazio interno tra il contenuto di un elemento e il bordo del suo riquadro*/
+    padding-bottom: 0; 
+}
+header nav ul{
+    position: absolute; /* Fissa il testo alla finestra, l'elemento posizionato rispetto alla finestra del browser e rimane fisso anche quando l'utente scorre la pagina */
+    top: 10px; /* Distanza dalla parte superiore della finestra */
+    left: 50%; /* Posiziona il testo al centro orizzontalmente */
+    transform: translateX(-50%); /* Centra esattamente il testo traslandolo */
+    background-color: white; /* Sfondo semi-trasparente per una lettura migliore */
+    padding: 10px 20px; /* Spaziatura interna */
+    border-radius: 5px; /* Angoli arrotondati */
+    z-index: 1000; /* Assicura che il testo sia sopra gli altri elementi */
+    list-style: none; /*elimina gli elementi grafici prima di ogni elemento della lista*/
+    padding: 0;
+}
+header nav ul li{
+    display: inline; /*posiziona in veriticale gli elementi della lista*/
+    margin: 15;/*aumenta i margini tra gli elementi della lista*/
+}
+header nav ul li a{
+    color: black; /*colora di nero i caratteri della lista*/
+    text-decoration: none; /*elimina il sottolineato dagli elementi della lista*/
+    font-size: large; /*aumenta le dimensione dei caratteri della lista*/
+    font-weight: bold;
+}
+header nav ul li a:hover {
+    color: aqua; /* Cambia il colore del testo */
+    transition: color 0.3s ease-in-out; /* Effetto di transizione fluida */
+}
+header hr{
+    border: none;
+    height: 2px;
+    background: black;
+    margin: 0;
+    
+}
+h2{
+    position: relative; 
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px); 
+}
+.Freccia {
+    position:absolute;
+    top: 50%;                 /* Centra verticalmente rispetto al contenitore */
+    transform: translateY(-50%); /* Correzione per il posizionamento verticale */
+    font-size: 3em;       /* Dimensione grande per le frecce */
+    color: #333;          /* Colore personalizzato */
+    text-decoration: none;/* Rimuove la sottolineatura */
+    padding: 200px;
+}
+.Freccia_singola_destra {
+    position:absolute;
+    top: 50%;                 /* Centra verticalmente rispetto al contenitore */
+    transform: translateY(-50%); /* Correzione per il posizionamento verticale */
+    font-size: 3em;       /* Dimensione grande per le frecce */
+    color: #333;          /* Colore personalizzato */
+    text-decoration: none;/* Rimuove la sottolineatura */
+    right: 450px;
+}
+.Freccia_singola_sinistra{
+    position:absolute;
+    top: 50%;         
+    left: 450px;        /* Centra verticalmente rispetto al contenitore */
+    transform: translateY(-50%);
+    font-size: 3em;       /* Dimensione grande per le frecce */
+    color: #333;          /* Colore personalizzato */
+    text-decoration: none;/* Rimuove la sottolineatura */
+ 
+}
+.Freccia:first-of-type {
+    left: 250px;               /* Fissa la freccia sinistra */
+  }
+  
+.Freccia:last-of-type {
+    right: 250px;              /* Fissa la freccia destra */
+  }
+.Freccia_singola_destra:hover{
+    color:aqua;          /* Cambio colore al passaggio del mouse */
+}
+.Freccia_singola_sinistra:hover{
+    color:aqua;          /* Cambio colore al passaggio del mouse */
+}
+.Freccia:hover {
+    color:aqua;          /* Cambio colore al passaggio del mouse */
+}
+
+.paragrafi{
+    position:relative;/*L'elemento viene posizionato rispetto alla sua posizione originale nel flusso del documento*/
+    left: 50%; /*Sposta l'elemento verso destra del 50%*/
+    transform: translateX(-50%); /*Riporta l'elemento indietro del 50% della sua stessa larghezza, centrandolo orizzontalmente*/
+    background-color:white;/*Imposta il colore di sfondo a bianco*/
+    max-width: 1000px; /*massima lunghezza del testo*/
+    font-size: large; /*Aumenta le dimensioni del testo*/
+    padding: 10px; /*Aggiunge 10px di spazio interno tra il contenuto dell'elemento e i suoi bordi*/
+    line-height: 2; /*Imposta l'altezza fra le linea di testo*/
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);/*crea un'ombra intorno all'elemento per un effetto visivo*/
+}
+footer{
+    background-color: dimgrey;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+}
+.crediti{
+    position: relative;
+    left: +400px;
+    font-family:'Times New Roman';
+    font-size: x-small;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.lettera_iniziale{
+    font-size: 2em; /*aumentare le dimensioni del font dei caratteri*/
+    font-family: 'Times New Roman';
+    line-height: 1;
+}
+.immagine_principale {
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5); /* Ombra con offset e sfumatura */
+    border-radius: 30px; /* aggiunge angoli arrotondati */
+    width: 900px;  /* Imposta la larghezza fissa */
+    height: 506px;  /* Mantiene le proporzioni */
+  }
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+table td {
+    background-color: white;
+    border: 1px solid black;
+    width: 50%;
+    padding: 10px;
+}
+table td a {
+    font-size: large;
+    color: rgb(160, 0, 99);
+    font-weight: bold;
+}
